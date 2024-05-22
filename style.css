@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(221, 128, 74, 0.315);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#mode-selection button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 110px;
+    justify-content: center;
+    margin: 20px auto;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 42%;
+}
+
+.cell {
+    width: 200px;
+    height: 200px;
+    /* background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFLY1QClFTXi7Y3TPeecrAyluklGNIjqZ04VjKNGThd-ZLPAHHleOW3UZKo8BTscH_t2Iw3D_vwFgP6czRwyO6KDBj0dw1B51Sgpli1D7XrDT4JdCmzteg6rCaL97APQO39GQ6L4AINsE/s1600/gremlins+personagem.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}
+
+#reset {
+    position: absolute;
+    bottom: 100px;
+    left: 40%;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#back {
+    position: absolute;
+    bottom: 100px;
+    right: 40%;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+/* Cada bloco */
+
+.um {
+    background-color: rgb(255, 165, 180);
+}
+
+.dois {
+    background-color: rgb(228, 255, 188);
+}
+
+.tres {
+    background-color: rgb(255, 165, 180);
+}
+
+.quatro {
+    background-color: rgb(228, 255, 188);
+}
+
+.cinco {
+    background-color: rgb(255, 165, 180);
+}
+
+.seis {
+    background-color: rgb(228, 255, 188);
+}
+
+
+.sete {
+    background-color: rgb(255, 165, 180);
+}
+
+.oito {
+    background-color: rgb(228, 255, 188);
+}
+
+
+.nove {
+    background-color: rgb(255, 165, 180);
+}
